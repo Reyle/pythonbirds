@@ -4,4 +4,5 @@ class Pesoa:
 
 if __name__ == '__main__':
     p = Pesoa()
+    print('TESTE:')
     print(p.saludo())
