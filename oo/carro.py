@@ -6,6 +6,9 @@ class Carro:
         self.direccion = direccion
         self.motor = motor
 
+    def direccio(self):
+        return self.direccion.result
+
     def calculo_velocidad(self):
         return self.motor.velocidad
     def acelerando(self):
@@ -13,8 +16,6 @@ class Carro:
     def frenar(self):
         return self.motor.frenado()
 
-    def direccio(self):
-        return self.direccion.result
 
 
 
