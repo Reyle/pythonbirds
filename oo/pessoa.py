@@ -14,12 +14,13 @@ class Pesoa:
     @staticmethod
     def metodo_statico():
         return 42
-
+class Homen(Pesoa):
+    pass
 
 
 if __name__ == '__main__':
-    elier = Pesoa(nome='Elier')
-    diego = Pesoa(elier, nome="Diego", edad=65)
+    elier = Homen(nome='Elier')
+    diego = Homen(elier, nome="Diego", edad=65)
     print("--------")
     print('Atributos de los objetos "diego" y "elier')
     print('Nombre: ', elier.nome)
@@ -44,3 +45,4 @@ if __name__ == '__main__':
     print("-------------------")
     print(Pesoa.metodo_statico())
     print(elier.metodo_statico())
+
